@@ -1,18 +1,13 @@
-import { Button } from "./components/button";
 import { Container } from "./components/container";
 import { Header } from "./components/header";
+import { Hero } from "./components/hero";
 
 export function App() {
   return (
     <>
       <Header />
       <main className="">
-        <div className="h-[300vh]">
-          <Container>
-            Hero components
-            <Button size='large'>Watch</Button>
-          </Container>
-        </div>
+        <Hero />
         <div className="">
           <Container>
             usps
