@@ -1,12 +1,33 @@
+import { Button } from "./components/button";
+import { Container } from "./components/container";
+import { Header } from "./components/header";
+
 export function App() {
   return (
     <>
-      <header className="">Apple TV+</header>
+      <Header />
       <main className="">
-        <div className="">Hero components</div>
-        <div className="">usps</div>
-        <div className="">3 col layouts</div>
-        <div className="">Carousel with posters</div>
+        <div className="h-[300vh]">
+          <Container>
+            Hero components
+            <Button size='large'>Watch</Button>
+          </Container>
+        </div>
+        <div className="">
+          <Container>
+            usps
+          </Container>
+        </div>
+        <div className="">
+          <Container>
+            3 col layouts
+          </Container>
+        </div>
+        <div className="">
+          <Container>
+            Carousel with posters
+          </Container>
+        </div>
       </main>
     </>
   )
