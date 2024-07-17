@@ -1,17 +1,16 @@
 import { Container } from "./components/container";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { Usps } from "./components/usps";
 
 export function App() {
   return (
     <>
       <Header />
       <main className="">
-        <Hero />
-        <div className="">
-          <Container>
-            usps
-          </Container>
+        <div className="bg-background">
+          <Hero />
+          <Usps />
         </div>
         <div className="">
           <Container>
