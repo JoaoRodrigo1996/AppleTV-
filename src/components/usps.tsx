@@ -4,7 +4,7 @@ import { FadeIn } from "./fade-in";
 
 export function Usps(){
   return (
-    <Container className="text-balance z-10 relative py-36  space-y-12">
+    <Container className="z-10 relative py-36  space-y-12">
       <FadeIn>
         <p className="text-balance text-5xl font-bold leading-tight text-white">New Apple Originals every month - always ad-free.</p>
       </FadeIn>
