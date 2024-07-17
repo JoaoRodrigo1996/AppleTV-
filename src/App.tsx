@@ -1,7 +1,7 @@
-import { Container } from "./components/container";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Usps } from "./components/usps";
+import { VideoCarousel } from "./components/video-carousel";
 
 export function App() {
   return (
@@ -12,16 +12,8 @@ export function App() {
           <Hero />
           <Usps />
         </div>
-        <div className="">
-          <Container>
-            3 col layouts
-          </Container>
-        </div>
-        <div className="">
-          <Container>
-            Carousel with posters
-          </Container>
-        </div>
+        <VideoCarousel />
+        <div className="h-[300vh]"></div>
       </main>
     </>
   )
