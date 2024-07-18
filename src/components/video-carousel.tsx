@@ -52,7 +52,7 @@ export function VideoCarousel(){
     <motion.div animate={carouselVariant} className="bg-background pb-16 ">
       <div ref={carouselWrapperRef} className="overflow-clip h-[300vh] mt-[-100vh]">
         <div className="sticky top-0 flex h-screen items-center">
-          <div className="relative left-1/2 mb-5 flex -translate-x-1/2 gap-5">
+          <div className="relative  mb-5 flex left-[6%] -translate-x-1/2 gap-5">
             <motion.div 
               style={{ opacity: postersOpacity, x: posterTranslateXLeft }} 
               className="aspect-[9/16] w-[300px] shrink-0 overflow-clip rounded-2xl md:aspect-video md:w-[60vw]"
